@@ -1,9 +1,15 @@
+using CQRSMediatR.Persistence;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+//Registering the EF Core Database Context
+builder.Services.AddDbContext<AppDbContext>();
+
 
 var app = builder.Build();
 
