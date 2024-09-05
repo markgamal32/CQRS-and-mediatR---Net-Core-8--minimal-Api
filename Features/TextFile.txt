@@ -1,0 +1,13 @@
+﻿Feature Folder: Vertical Slice Architecture
+This is yet another minimal demonstration of VSA, 
+or Vertical Slice Architecture, 
+where we would organize our features by folders. As in, 
+everything related to Product Creation would belong to the Features/Product/Commands/Create folder,
+and so on. This approach makes it easier to locate and maintain code related to specific features,
+as all related functionality is grouped.
+This can lead to improved code organization, readability, and maintainability, especially in larger projects.
+
+Later, I will write an article that combines VSA,
+Clean Architecture, and Modular Monolith Architecture.
+Let me know in the comment section if you want this article soon!
+
