@@ -1,4 +1,5 @@
 using CQRSMediatR.Persistence;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +10,9 @@ builder.Services.AddSwaggerGen();
 
 //Registering the EF Core Database Context
 builder.Services.AddDbContext<AppDbContext>();
+//Registering MediatR
+builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly()));
+
 
 
 var app = builder.Build();
