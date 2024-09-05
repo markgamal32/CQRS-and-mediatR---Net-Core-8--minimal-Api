@@ -7,6 +7,7 @@ This project is a simple demonstration of implementing the **CQRS (Command Query
 - **MediatR** for handling commands and queries
 - **Entity Framework Core** with an in-memory database
 - **CQRS Pattern**
+   ![Screenshot 2024-09-05 195847](https://github.com/user-attachments/assets/5d0dd300-e7cd-4a89-9b5b-4caa51d0a2b5)
 
 ## Getting Started
 
@@ -31,7 +32,6 @@ This project is a simple demonstration of implementing the **CQRS (Command Query
     dotnet run
     ```
 
-   ![Screenshot 2024-09-05 195847](https://github.com/user-attachments/assets/5d0dd300-e7cd-4a89-9b5b-4caa51d0a2b5)
 
 
 ### Running the Tests
