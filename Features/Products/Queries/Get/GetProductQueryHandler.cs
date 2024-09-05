@@ -17,4 +17,11 @@ namespace CQRSMediatR.Features.Products.Queries.Get
 			return new ProductDto(product.Id, product.Name, product.Description, product.Price);
 		}
 	}
+
+	/*
+	 * In the Handle method, we will use the ID to get the product from the database.
+	 * If the result is empty, null is returned, indicating a not found result.
+	 * Otherwise, we project the product data to a ProductDto object and return it.
+	 */
+
 }
